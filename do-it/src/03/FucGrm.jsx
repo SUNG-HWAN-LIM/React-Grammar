@@ -11,4 +11,4 @@ function SFC(props, context) {
 SFC.propTypes = { somePropValue: PropTypes.any };
 SFC.defaultProps = { somePropValue: 'default value' };
 
-export default SFC
+export default SFC;
