@@ -15,3 +15,10 @@ function FucTodaysPlanApp(props) {
 
 }
 
+const todoList = [
+    { taskName: '빨래하기', finished: false },
+    { taskName: '공부하기', finishe: true },
+];
+const todos = todoList.map(todo => <TodoTask taskName={todo.taskName} />);
+//결과
+//{<div>빨래하기</div><div>공부하기</div>}

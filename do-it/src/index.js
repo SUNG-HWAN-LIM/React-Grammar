@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Counter2 from 'Counter2';
 ReactDOM.render(
   <React.StrictMode>
-    <App /><TodaysPlanApp />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
