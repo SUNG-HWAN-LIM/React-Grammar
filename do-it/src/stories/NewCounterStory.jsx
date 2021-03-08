@@ -1,14 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-class NewCounterStory extends Component {
-    render() {
-        return (
-            <div>
+import NewCounter from '../03/NewCounter';
 
-            </div>
-        );
-    }
-}
-
-export default NewCounterStory;
+storiesOf('NewCounter', module)
+    .add('기본 설정', () => <NewCounter name="name" />)
